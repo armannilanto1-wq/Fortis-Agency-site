@@ -1,0 +1,4 @@
+{ "name": "fortis-agency-site", "private": true, "version": "2.0.0",
+  "description": "FORTIS AGENCY website: static front end + Netlify Functions",
+  "scripts": { "build": "python3 tools/build.py" },
+  "dependencies": { "@netlify/blobs": "^8.1.0" } }

@@ -1,0 +1,724 @@
+{
+ "_comment": "SINGLE SOURCE OF TRUTH. Edit here, then run: python3 tools/build.py. Used by the page (pricing, order form, agenda), the chat assistant prompt, and form validation. Prices verified against FORTIS_AGENCY_FIXED_PRICING_2026.pdf.",
+ "site": {
+  "name": "FORTIS AGENCY",
+  "tagline": "Build Better. Grow Further.",
+  "url": "https://fortis-agency.netlify.app",
+  "extraAllowedOrigins": [
+   "https://fortisagency.com",
+   "https://www.fortisagency.com"
+  ],
+  "email": "armannilanto1@gmail.com",
+  "phone": "+880 1354 431905",
+  "phoneTel": "+8801354431905",
+  "address": {
+   "line1": "New DOHS Mohakhali, Rd-5, House-145, GF",
+   "line2": "Dhaka, Bangladesh, 1206",
+   "city": "Dhaka",
+   "country": "BD"
+  },
+  "mapQuery": "New DOHS Mohakhali, Rd-5, House-145, GF, Dhaka, Bangladesh, 1206",
+  "founder": {
+   "name": "Mukhdum Arman",
+   "title": "Full Stack Developer & Founder"
+  }
+ },
+ "claims": {
+  "experienceYears": "5+",
+  "collaborations": "18",
+  "disciplines": "7",
+  "trustLine": "170+ Clients Served",
+  "rating": "4.9",
+  "_note": "Owner-verified figures (confirmed by the owner on 2026-11-07). Edit here, then rebuild.",
+  "clientsServed": "170+"
+ },
+ "pricing": {
+  "label": "Fixed pricing",
+  "categories": [
+   {
+    "id": "strategy",
+    "label": "Strategy & Consulting",
+    "blurb": "Position the business right before you spend a dollar on execution.",
+    "items": [
+     {
+      "id": "strategy/business-strategy",
+      "name": "Business Strategy",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "strategy/growth-strategy",
+      "name": "Growth Strategy",
+      "regular": 750,
+      "price": 599,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "strategy/digital-transformation",
+      "name": "Digital Transformation",
+      "regular": 1500,
+      "price": 1299,
+      "savePct": 13,
+      "billing": "one-time"
+     },
+     {
+      "id": "strategy/founder-advisory-60-min",
+      "name": "Founder Advisory (60 min)",
+      "regular": 300,
+      "price": 199,
+      "savePct": 34,
+      "billing": "one-time"
+     },
+     {
+      "id": "strategy/market-competitive-research",
+      "name": "Market & Competitive Research",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "strategy/business-digital-audit",
+      "name": "Business / Digital Audit",
+      "regular": 350,
+      "price": 299,
+      "savePct": 15,
+      "billing": "one-time"
+     }
+    ]
+   },
+   {
+    "id": "branding",
+    "label": "Branding & Creative",
+    "blurb": "Identity systems, brand kits and content that make you recognizable.",
+    "items": [
+     {
+      "id": "branding/logo-design",
+      "name": "Logo Design",
+      "regular": 250,
+      "price": 199,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/brand-identity",
+      "name": "Brand Identity",
+      "regular": 800,
+      "price": 649,
+      "savePct": 19,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/complete-brand-kit",
+      "name": "Complete Brand Kit",
+      "regular": 700,
+      "price": 549,
+      "savePct": 22,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/premium-brand-system",
+      "name": "Premium Brand System",
+      "regular": 1500,
+      "price": 1199,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/social-media-design-pack",
+      "name": "Social Media Design Pack",
+      "regular": 300,
+      "price": 249,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/presentation-pitch-deck",
+      "name": "Presentation / Pitch Deck",
+      "regular": 300,
+      "price": 199,
+      "savePct": 34,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/video-editing-1-video",
+      "name": "Video Editing (1 video)",
+      "regular": 200,
+      "price": 149,
+      "savePct": 26,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/premium-video-production",
+      "name": "Premium Video Production",
+      "regular": 900,
+      "price": 599,
+      "savePct": 33,
+      "billing": "one-time"
+     },
+     {
+      "id": "branding/motion-graphics",
+      "name": "Motion Graphics",
+      "regular": 250,
+      "price": 199,
+      "savePct": 20,
+      "billing": "one-time"
+     }
+    ]
+   },
+   {
+    "id": "website",
+    "label": "Website Design & Development",
+    "blurb": "Fast, modern websites and web apps, built on the stack that fits.",
+    "items": [
+     {
+      "id": "website/landing-page",
+      "name": "Landing Page",
+      "regular": 600,
+      "price": 499,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/business-website",
+      "name": "Business Website",
+      "regular": 1200,
+      "price": 999,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/premium-corporate-website",
+      "name": "Premium Corporate Website",
+      "regular": 2500,
+      "price": 1999,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/e-commerce-website",
+      "name": "E-commerce Website",
+      "regular": 1500,
+      "price": 1299,
+      "savePct": 13,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/webflow-development",
+      "name": "Webflow Development",
+      "regular": 1200,
+      "price": 999,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/wordpress-development",
+      "name": "WordPress Development",
+      "regular": 900,
+      "price": 749,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/custom-react-next-js-website",
+      "name": "Custom React / Next.js Website",
+      "regular": 2500,
+      "price": 1999,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/ui-ux-design",
+      "name": "UI/UX Design",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "website/website-maintenance",
+      "name": "Website Maintenance",
+      "regular": 200,
+      "price": 149,
+      "savePct": 26,
+      "billing": "monthly"
+     }
+    ]
+   },
+   {
+    "id": "software",
+    "label": "Software & App Development",
+    "blurb": "MVPs, dashboards and custom software that ships and scales.",
+    "items": [
+     {
+      "id": "software/mvp-development",
+      "name": "MVP Development",
+      "regular": 2500,
+      "price": 1999,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/custom-web-application",
+      "name": "Custom Web Application",
+      "regular": 4000,
+      "price": 3499,
+      "savePct": 13,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/saas-mvp",
+      "name": "SaaS MVP",
+      "regular": 5000,
+      "price": 4499,
+      "savePct": 10,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/mobile-app-mvp",
+      "name": "Mobile App MVP",
+      "regular": 4000,
+      "price": 3499,
+      "savePct": 13,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/full-mobile-application",
+      "name": "Full Mobile Application",
+      "regular": 10000,
+      "price": 7999,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/api-backend-development",
+      "name": "API / Backend Development",
+      "regular": 1500,
+      "price": 999,
+      "savePct": 33,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/dashboard-admin-panel",
+      "name": "Dashboard / Admin Panel",
+      "regular": 1500,
+      "price": 999,
+      "savePct": 33,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/api-third-party-integration",
+      "name": "API / Third-party Integration",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "software/custom-business-software",
+      "name": "Custom Business Software",
+      "regular": 5000,
+      "price": 3999,
+      "savePct": 20,
+      "billing": "one-time"
+     }
+    ]
+   },
+   {
+    "id": "ai",
+    "label": "AI & Intelligence",
+    "blurb": "Chatbots, agents and automation that do real work, not demos.",
+    "items": [
+     {
+      "id": "ai/ai-strategy-opportunity-audit",
+      "name": "AI Strategy & Opportunity Audit",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-chatbot",
+      "name": "AI Chatbot",
+      "regular": 750,
+      "price": 599,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-customer-support-system",
+      "name": "AI Customer Support System",
+      "regular": 1500,
+      "price": 1199,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-workflow-automation",
+      "name": "AI Workflow Automation",
+      "regular": 1000,
+      "price": 799,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-agent-system",
+      "name": "AI Agent System",
+      "regular": 2000,
+      "price": 1499,
+      "savePct": 25,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-knowledge-base-rag",
+      "name": "AI Knowledge Base / RAG",
+      "regular": 2000,
+      "price": 1499,
+      "savePct": 25,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-api-integration",
+      "name": "AI API Integration",
+      "regular": 750,
+      "price": 599,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/custom-ai-feature",
+      "name": "Custom AI Feature",
+      "regular": 1500,
+      "price": 999,
+      "savePct": 33,
+      "billing": "one-time"
+     },
+     {
+      "id": "ai/ai-consulting",
+      "name": "AI Consulting",
+      "regular": 2000,
+      "price": 1499,
+      "savePct": 25,
+      "billing": "monthly"
+     }
+    ]
+   },
+   {
+    "id": "marketing",
+    "label": "Marketing & Growth",
+    "blurb": "SEO, paid media and lead generation, run as a system.",
+    "items": [
+     {
+      "id": "marketing/seo",
+      "name": "SEO",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "monthly"
+     },
+     {
+      "id": "marketing/social-media-strategy",
+      "name": "Social Media Strategy",
+      "regular": 300,
+      "price": 249,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "marketing/social-media-management",
+      "name": "Social Media Management",
+      "regular": 1000,
+      "price": 599,
+      "savePct": 40,
+      "billing": "monthly"
+     },
+     {
+      "id": "marketing/paid-advertising-management",
+      "name": "Paid Advertising Management",
+      "regular": 1000,
+      "price": 599,
+      "savePct": 40,
+      "billing": "monthly"
+     },
+     {
+      "id": "marketing/lead-generation",
+      "name": "Lead Generation",
+      "regular": 750,
+      "price": 649,
+      "savePct": 13,
+      "billing": "monthly"
+     },
+     {
+      "id": "marketing/email-marketing-setup",
+      "name": "Email Marketing Setup",
+      "regular": 300,
+      "price": 249,
+      "savePct": 17,
+      "billing": "one-time"
+     },
+     {
+      "id": "marketing/conversion-rate-optimization",
+      "name": "Conversion Rate Optimization",
+      "regular": 500,
+      "price": 399,
+      "savePct": 20,
+      "billing": "one-time"
+     },
+     {
+      "id": "marketing/marketing-automation",
+      "name": "Marketing Automation",
+      "regular": 1000,
+      "price": 799,
+      "savePct": 20,
+      "billing": "one-time"
+     }
+    ]
+   },
+   {
+    "id": "digital",
+    "label": "Digital Products",
+    "blurb": "Templates, kits and playbooks you can buy and use today.",
+    "items": [
+     {
+      "id": "digital/simple-template",
+      "name": "Simple Template",
+      "regular": 29,
+      "price": 19,
+      "savePct": 34,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/premium-template",
+      "name": "Premium Template",
+      "regular": 79,
+      "price": 49,
+      "savePct": 38,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/template-bundle",
+      "name": "Template Bundle",
+      "regular": 149,
+      "price": 89,
+      "savePct": 40,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/ui-kit",
+      "name": "UI Kit",
+      "regular": 199,
+      "price": 99,
+      "savePct": 50,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/business-system",
+      "name": "Business System",
+      "regular": 99,
+      "price": 59,
+      "savePct": 40,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/ai-prompt-pack",
+      "name": "AI Prompt Pack",
+      "regular": 79,
+      "price": 29,
+      "savePct": 63,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/digital-playbook",
+      "name": "Digital Playbook",
+      "regular": 199,
+      "price": 99,
+      "savePct": 50,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/mini-course",
+      "name": "Mini Course",
+      "regular": 299,
+      "price": 149,
+      "savePct": 50,
+      "billing": "one-time"
+     },
+     {
+      "id": "digital/premium-course",
+      "name": "Premium Course",
+      "regular": 499,
+      "price": 299,
+      "savePct": 40,
+      "billing": "one-time"
+     }
+    ]
+   }
+  ],
+  "packages": [
+   {
+    "id": "pkg/fortis-start",
+    "name": "FORTIS START",
+    "tag": "For first-time builders",
+    "regular": 1500,
+    "price": 1199,
+    "savePct": 20,
+    "includes": [
+     "Strategy",
+     "Positioning",
+     "Landing page"
+    ],
+    "billing": "one-time"
+   },
+   {
+    "id": "pkg/fortis-launch",
+    "name": "FORTIS LAUNCH",
+    "tag": "For getting to market",
+    "regular": 3500,
+    "price": 2999,
+    "savePct": 14,
+    "includes": [
+     "Brand foundation",
+     "Website",
+     "Launch assets"
+    ],
+    "billing": "one-time"
+   },
+   {
+    "id": "pkg/fortis-digital",
+    "name": "FORTIS DIGITAL",
+    "tag": "For scaling operations",
+    "regular": 7500,
+    "price": 6499,
+    "savePct": 13,
+    "includes": [
+     "Strategy",
+     "Premium website",
+     "Automation",
+     "Growth foundation"
+    ],
+    "billing": "one-time"
+   },
+   {
+    "id": "pkg/fortis-ai",
+    "name": "FORTIS AI",
+    "tag": "For automating the business",
+    "regular": 5000,
+    "price": 4299,
+    "savePct": 14,
+    "includes": [
+     "AI opportunity audit",
+     "Automation / agent system",
+     "Integration"
+    ],
+    "billing": "one-time"
+   },
+   {
+    "id": "pkg/fortis-scale",
+    "name": "FORTIS SCALE",
+    "tag": "For full-stack growth",
+    "regular": 10000,
+    "price": 8499,
+    "savePct": 15,
+    "includes": [
+     "Strategy",
+     "Technology",
+     "AI",
+     "Growth system"
+    ],
+    "billing": "one-time"
+   }
+  ],
+  "retainers": [
+   {
+    "id": "ret/fortis-creative",
+    "name": "FORTIS CREATIVE",
+    "regular": 1500,
+    "price": 1199,
+    "includes": [
+     "Ongoing design",
+     "Creative direction",
+     "Content support"
+    ],
+    "billing": "monthly",
+    "savePct": 20
+   },
+   {
+    "id": "ret/fortis-growth",
+    "name": "FORTIS GROWTH",
+    "regular": 2000,
+    "price": 1599,
+    "includes": [
+     "Growth strategy",
+     "SEO",
+     "Content",
+     "Conversion support"
+    ],
+    "billing": "monthly",
+    "savePct": 20
+   },
+   {
+    "id": "ret/fortis-technology",
+    "name": "FORTIS TECHNOLOGY",
+    "regular": 3000,
+    "price": 2499,
+    "includes": [
+     "Product support",
+     "Website support",
+     "Technical development"
+    ],
+    "billing": "monthly",
+    "savePct": 17
+   },
+   {
+    "id": "ret/fortis-ai",
+    "name": "FORTIS AI",
+    "regular": 3000,
+    "price": 2499,
+    "includes": [
+     "AI automation",
+     "Agents",
+     "Intelligence systems"
+    ],
+    "billing": "monthly",
+    "savePct": 17
+   },
+   {
+    "id": "ret/fortis-executive",
+    "name": "FORTIS EXECUTIVE",
+    "regular": 5000,
+    "price": 3999,
+    "includes": [
+     "Strategic advisory",
+     "Cross-functional agency support"
+    ],
+    "billing": "monthly",
+    "savePct": 20
+   }
+  ],
+  "policies": [
+   "Fixed prices cover the agreed standard scope only.",
+   "New features, extra pages, additional platforms or major scope changes are quoted separately before work begins.",
+   "Domains, hosting, paid plugins, licensed assets, software subscriptions, ad spend, app-store fees and API usage are not included unless stated in the proposal.",
+   "Project work is typically 50% to start and 50% before final delivery. Monthly retainers are paid at the start of each billing month.",
+   "Current prices are promotional rates and may rise later."
+  ]
+ },
+ "chat": {
+  "model": "claude-sonnet-5-5",
+  "maxTokens": 400,
+  "maxMessages": 12,
+  "maxChars": 800,
+  "founderNote": "Fortis Agency was founded by Mukhdum Arman, a full stack developer with 5+ years of hands-on experience and 120+ projects delivered for clients worldwide. Before Fortis, his personal freelance and collaboration work included Bangladesh government digital projects (BMET and the e-Passport website), Digital Dropouts, Code2Product and CodeMaster.io. These were his prior personal work, not Fortis client projects.",
+  "persona": [
+   "You are the Fortis Assistant, a friendly, concise chat assistant embedded on the Fortis Agency website.",
+   "You are an AI assistant. You are not a human and you are not Mukhdum Arman. If anyone asks whether they are talking to a person or an AI, say plainly that you are an AI assistant, and offer the contact form or email for a human reply.",
+   "Fortis Agency is a fixed-price studio offering Strategy & Consulting, Branding & Creative, Website Design & Development, Software & App Development, AI & Intelligence, Marketing & Growth, and Digital Products.",
+   "Only ever quote the FORTIS PRICE (never the regular price) when discussing cost. Never invent a service, price, client result, testimonial or statistic that is not listed below.",
+   "Keep answers short (2-4 sentences) unless the visitor asks for more detail. When someone is ready to start, point them to the order form (Pricing > Choose Plan), the Start a Project button, or the contact form.",
+   "Do not use em dashes in your replies."
+  ]
+ }
+}
